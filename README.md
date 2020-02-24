@@ -23,7 +23,7 @@ https://www.w3schools.com/html/
 #### CSS
 https://www.w3schools.com/css/
 
-### PHP
+#### PHP
 https://www.php.net/docs.php
 
 ## Description of tasks:
@@ -46,3 +46,40 @@ In case git is not installed
 2. Type `sudo apt install git`
 3. Go through the in case of git is installed steps.
 
+
+### Adding a Style
+
+As a group you should agree what the style will be then you can go through the following steps:
+
+### Adding a Menu bar
+Check out how this is done in Bootstrap ;) And think about what kind of menu it will be.
+
+### Adding a background color/image
+Use CSS to change the background of the website
+
+### Define the colors of the website
+Use CSS again ;) 
+
+### Stylise the form submissions
+Use Bootstrap for this, they have nice form templates.
+
+### Make the notices appear
+This is a longer task as it requires some work with the database. Don't worry I'm more than happy to help, in fact I written queries for you already. You can find these in the `noticeboard.php` file. The query will return you an array, where each item will be a notice. You can use PHP to loop through this array and apply a template for each notice. 
+
+### Keep on eye on updates here.
+
+## How do we use git?
+
+There are some commands that you need to get familiar with. Very important for you to make sure that you will not work on the same files. That is to avoid conflicts. Before you start working on anything run the following command:
+
+`git pull origin master`
+
+After this you can work on your local machine. Once you finished working you will need to the following:
+1. Run `git pull origin master`
+2. Run `git add .` or if you want to push only file `git add filename.extension`
+3. Run `git commit -m "Commit message"` where you should change `Commit message` to your own message
+4. Run `git push origin master`
+
+If you have any questions please contact me on either `mark.paveszka@student.manchester.ac.uk` or `mark.paveszka@gmail.com`
+
+Mark
