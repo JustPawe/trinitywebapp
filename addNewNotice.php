@@ -35,15 +35,7 @@
 	{
 		$query = "INSERT INTO notices (title, description, public, uploader_id)
 				  VALUES ('$title', '$description', '$public', '" . $_SESSION['current_user'] ."' )";
-		$result = $link->query($query);
-		if($result)
-			return true;
-		else
-		{
-			$msg = "There is a connection problem please try again later.";
-			//header("Location: create.php?msg=$msg");
-			return false;
-		}
+		echo $query;
 	}
 
 	$link->close();

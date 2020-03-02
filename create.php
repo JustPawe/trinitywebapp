@@ -8,6 +8,10 @@
 	</head>
 	<body>
 		<?php
+			if(!isset($_SESSION))
+				header("Location: index.php");
+
+			echo $_SESSION['current_user'];
 			if(isset ($_GET['msg'])){
 				echo "<h4 style=\"color:red\"> " . $_GET['msg'] . "</h4>";
 			}
