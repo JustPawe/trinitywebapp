@@ -2,7 +2,7 @@
 	session_start();
 	require_once('base.php');
 ?>
-<html>
+<html >
 	<head>
 		<title>Noticeboard</title>
 	</head>
@@ -10,8 +10,8 @@
 	<body>
 	<center>
 		<h1>Noticeboard</h1>
-		<div class="jumbotron" style="background-color: pink; width: 600px">
-			<u><h1 style="background-color: white" align="left">NOTICE TITLE</h1></u>
+		<div class="jumbotron" style="background-color: #f9f7d5; width: 600px">
+			<u><h1 align="left">NOTICE TITLE</h1></u>
 			<h3 style="color: gray">Notice that this is a notice in the place of a notice.</h3>
 			<h2>The Person Who Wrote This</h2>
 		</div>

@@ -61,3 +61,17 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+#uberbar	{
+	border-bottom:1px solid white;
+	padding:10px 20px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:2000;
+	width:100;
+}
+
+body
+{
+	color: #ffffff;
+}

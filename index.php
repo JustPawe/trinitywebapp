@@ -9,7 +9,7 @@
 	<center>
 		<?php
 			if(isset ($_GET['msg'])){
-				echo "<h4 style=\"color:red\"> " . $_GET['msg'] . "</h4>";
+				echo "<h4 style=\"color: red\"> " . $_GET['msg'] . "</h4>";
 			}
 		?>
 		<form action="login.php" method="POST" align="center" class="col-sm-2">
