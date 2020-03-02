@@ -12,7 +12,7 @@
 				echo "<h4 style=\"color:red\"> " . $_GET['msg'] . "</h4>";
 			}
 		?>
-		<form action="../Noticeboard/addNewNotice.php" method="POST">
+		<form class="jumbotron" action="addNewNotice.php" method="POST">
 			<input type="text" name="title"><br><br>
 			<input type="text" name="description" maxlenght="1000"><br><br>
 			<label class="switch">
